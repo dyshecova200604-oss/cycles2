@@ -106,7 +106,7 @@ public class Main {
                             total3 = total3 + (total3 / 100 * 7);
                             if (i % 6 == 0) {
                                 System.out.println("Месяц " + i + " накоплено " + total3 + " рублей");
-                            }
+
                         }
                         System.out.println("Задача5");
                         int currentAmount = 15_000;
@@ -117,4 +117,4 @@ public class Main {
                             currentAmount += currentAmount * capitals;
                             monthss+= 6;
                             System.out.println("Месяц " + monthss + ", сумма накоплений равна " + currentAmount + " рублей");
-        } }}}}
+        } }}}} }
