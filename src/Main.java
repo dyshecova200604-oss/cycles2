@@ -85,7 +85,6 @@ public class Main {
             if (currentFriday <= daysInMonth) {
 
                 System.out.println("Сегодня пятница, " + currentFriday + "-е число. Необходимо подготовить отчет.");
-            }}
                 System.out.println("Задача8");
                 int currentYear = 2025;
                 int yearComet = 0;
@@ -118,4 +117,4 @@ public class Main {
                             currentAmount += currentAmount * capitals;
                             monthss+= 6;
                             System.out.println("Месяц " + monthss + ", сумма накоплений равна " + currentAmount + " рублей");
-        } }}
+        } }}}}
