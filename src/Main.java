@@ -92,8 +92,7 @@ public class Main {
                     yearComet = yearComet + 79;
                     if (yearComet >= (currentYear - 200) && yearComet <= (currentYear + 100)) {
                         System.out.println(yearComet + " Год кометы ");
-                    }
-                }
+
                         System.out.println("Задача6");
                         int depositAmount3 = 15000;
                         int total3 = 0;
@@ -107,7 +106,6 @@ public class Main {
                             if (i % 6 == 0) {
                                 System.out.println("Месяц " + i + " накоплено " + total3 + " рублей");
 
-                        }
                         System.out.println("Задача5");
                         int currentAmount = 15_000;
                         int depositFinals = 12_000_000;
@@ -117,4 +115,4 @@ public class Main {
                             currentAmount += currentAmount * capitals;
                             monthss+= 6;
                             System.out.println("Месяц " + monthss + ", сумма накоплений равна " + currentAmount + " рублей");
-        } }}}} }
+        } }}}} }}}}
